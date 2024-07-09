@@ -144,7 +144,7 @@ header h1 {
 
 .site-row {
     display: flex;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid gray;
     justify-content: center;
 }
 
