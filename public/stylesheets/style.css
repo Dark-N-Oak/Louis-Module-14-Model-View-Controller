@@ -8,44 +8,43 @@ html {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    color: #333;
+    color: black;
+    background-color: slategray;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 main,
 .site-name {
-    background-color: #b8cba2;
+    background-color: lightblue;
+}
+
+.site-name {
+    border-radius: 10px;
 }
 
 a,
 .btn-no-style,
 #comment-subtitle {
-    color: #b8cba2;
-}
-
-a:hover,
-.btn-no-style:hover {
-    color: #e2edd5;
+    color: lightblue;
 }
 
 a {
     text-decoration: none;
     font-weight: bold;
-    transition: color .1s;
 }
 
 button {
-    background-color: #225ca3;
+    background-color: cornflowerblue;
     border: 0;
     padding: 1%;
     color: white;
     font-weight: bold;
-    transition: background-color .1s;
     cursor: pointer;
     border-radius: 5px;
 }
 
 button:hover {
-    background-color: #3486eb;
+    background-color: darkblue;
 }
 
 .post-list {
@@ -55,20 +54,20 @@ button:hover {
 }
 
 .go-back {
-    color: #2c2307;
+    color: brown;
 }
 
 textarea,
 input {
-    padding: .5%;
+    padding: 1%;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid lightgray;
 }
 
 textarea:focus,
 input:focus {
     outline: none;
-    border: 1px solid #3486eb;
+    border: 1px solid cornflowerblue;
 }
 
 textarea {
@@ -103,7 +102,11 @@ header,
 .site-row,
 .info-section,
 .form-heading {
-    background-color: #2c2307;
+    background-color: brown;
+}
+
+.form-heading {
+    border-radius: 5px;
 }
 
 .login-page,
@@ -112,6 +115,7 @@ header,
 .edit-form-page {
     border: 3px solid black;
     padding-bottom: 10px;
+    border-radius: 10px;
 }
 
 .form-heading {
@@ -144,14 +148,16 @@ header h1 {
 
 .site-row {
     display: flex;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
     justify-content: center;
+    padding-bottom: 30px;
 }
 
 .site-name {
     margin-bottom: 10px;
     padding: 0px 10px;
-    border-style: double;
+    padding-left: 40%;
+    padding-right: 40%;
 }
 
 main {
@@ -167,7 +173,6 @@ main {
     text-decoration: none;
     font-size: 100%;
     font-weight: bold;
-    transition: color .1s;
     margin-left: 16px;
 }
 
@@ -176,29 +181,30 @@ main {
 }
 
 .delete-post-btn {
-    background-color: #d41414;
+    background-color: red;
 }
 
 .delete-post-btn:hover {
-    background-color: #ff643d;
+    background-color: orangered;
 }
 
 .post {
     margin-bottom: 2%;
     line-height: 150%;
     border: 3px solid black;
+    border-radius: 5px;
 }
 
 .post .title span {
     font-style: italic;
     font-size: 90%;
-    color: #7d7d7d;
+    color: black;
 }
 
 .edit-link {
     display: block;
     margin: -1.5% 0 2% 0;
-    color: #2c2307;
+    color: brown;
 }
 
 .comment-form {
@@ -211,7 +217,7 @@ main {
 }
 
 .comment:nth-child(odd) {
-    background-color: #fff5eb;
+    background-color: white;
 }
 
 .comment .meta {
@@ -244,12 +250,12 @@ main {
 
 .sign-in-link,
 .login-link {
-    color: #2c2307;
+    color: brown;
 }
 
 .form-heading h1,
 .form-heading h2 {
-    color: #b8cba2;
+color: black;
 }
 
 .login-form,
